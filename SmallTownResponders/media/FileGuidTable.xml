@@ -201,6 +201,16 @@
 	</files>
 
 	<files>
+		<path>media/clothing/clothingItems/Jacket_Dress_Police_Jefferson_SGT.xml</path>
+		<guid>58e57527-c9da-445d-8d99-03ac64d435ce</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Jacket_Dress_Police_Jefferson_CPT.xml</path>
+		<guid>b6856e33-d794-40e2-b1c1-6d89bdabc250</guid>
+	</files>
+
+	<files>
 		<path>media/clothing/clothingItems/Jacket_Dress_Police_KSP.xml</path>
 		<guid>de43c8ec-fcd9-41c2-94d2-5f2cb7a0ae6e</guid>
 	</files>
@@ -213,6 +223,21 @@
 	<files>
 		<path>media/clothing/clothingItems/Jacket_Dress_Police_Tandil.xml</path>
 		<guid>ffdf7edd-09c9-49fb-962c-2cadc8cd54e5</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Jacket_Dress_Police_Tandil_SGT.xml</path>
+		<guid>7e00cd9f-e8ce-46de-b138-32819a12551a</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Jacket_Dress_Police_Tandil_CPT.xml</path>
+		<guid>ba634083-3603-49a2-afd9-e7dde27acd44</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Jacket_Dress_Police_Tandil_Reflective.xml</path>
+		<guid>fbfd6580-e44f-43b6-908e-197bbc961c41</guid>
 	</files>
 
 	<files>
@@ -841,6 +866,11 @@
 	</files>
 
 	<files>
+		<path>media/clothing/clothingItems/Necklace_Badge_Police_Tandil_Gold.xml</path>
+		<guid>a6f46400-a0d0-412d-ba95-d3c9da930c49</guid>
+	</files>
+
+	<files>
 		<path>media/clothing/clothingItems/Necklace_Badge_Police_RavenCreek.xml</path>
 		<guid>1b0028bd-2eb9-441e-a4cf-e8ed49f56bf9</guid>
 	</files>
@@ -959,8 +989,28 @@
 	</files>
 
 	<files>
+		<path>media/clothing/clothingItems/Hat_Police_Tandil_SGT.xml</path>
+		<guid>b30d830f-035a-4330-83ad-e180dd72e9fa</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Hat_Police_Tandil_CPT.xml</path>
+		<guid>16dbc8f9-14bc-497a-8650-70df763f45e6</guid>
+	</files>
+
+	<files>
 		<path>media/clothing/clothingItems/Hat_Police_Tandil_Dress.xml</path>
 		<guid>3126c630-3e76-4896-9484-fbc47b5a8243</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Hat_Police_Tandil_SGT_Dress.xml</path>
+		<guid>6d86d4cd-b339-4386-91d2-a0dbb729f0dc</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Hat_Police_Tandil_CPT_Dress.xml</path>
+		<guid>6d219536-bda3-4738-b86d-1f598499ec85</guid>
 	</files>
 
 	<files>
@@ -1001,6 +1051,16 @@
 	<files>
 		<path>media/clothing/clothingItems/Hat_Police_JeffersonPD.xml</path>
 		<guid>1383acff-3183-427a-9305-1a37efb2508a</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Hat_Police_JeffersonPD_SGT.xml</path>
+		<guid>269affcd-0cef-4d30-8cf4-2e4817c7b075</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Hat_Police_JeffersonPD_CPT.xml</path>
+		<guid>35b21837-834a-4f5e-b448-397b40046649</guid>
 	</files>
 
 	<files>
@@ -1184,21 +1244,6 @@
 	</files>
 
 	<files>
-		<path>media/clothing/clothingItems/Hat_Fireman_Greenport_Black.xml</path>
-		<guid>e67ae078-7c25-4b89-ab74-dc40c1c79608</guid>
-	</files>
-
-	<files>
-		<path>media/clothing/clothingItems/Hat_Fireman_Greenport_Red.xml</path>
-		<guid>12d8a78d-1ed4-424c-b894-03d15243b2e4</guid>
-	</files>
-
-	<files>
-		<path>media/clothing/clothingItems/Hat_Fireman_Greenport_Yellow.xml</path>
-		<guid>2bec20e6-0c2a-4378-96c3-5ca847c77805</guid>
-	</files>
-
-	<files>
 		<path>media/clothing/clothingItems/Hat_Fireman_Tandil_Blue.xml</path>
 		<guid>f7c4843d-cfcf-4ceb-a992-86cfb17ba26d</guid>
 	</files>
@@ -1250,6 +1295,16 @@
 	</files>
 
 	<files>
+		<path>media/clothing/clothingItems/Jacket_Police_Tandil_SGT.xml</path>
+		<guid>0f3c100e-5c7e-42fa-b857-c12390ea56f3</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Jacket_Police_Tandil_CPT.xml</path>
+		<guid>bddcbb31-6ba0-4267-a252-88d0f4fa297b</guid>
+	</files>
+
+	<files>
 		<path>media/clothing/clothingItems/Jacket_Police_RavenCreek.xml</path>
 		<guid>97fbcc1a-a6a9-423c-9136-da396ebd3397</guid>
 	</files>
@@ -1257,6 +1312,16 @@
 	<files>
 		<path>media/clothing/clothingItems/Jacket_Police_Meade.xml</path>
 		<guid>d8402075-3296-48e6-958f-1dee3b2fe940</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Jacket_Police_Meade_SGT.xml</path>
+		<guid>955b9462-ec6a-4145-ac72-662b1b98d758</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Jacket_Police_Meade_CPT.xml</path>
+		<guid>4bf43bea-fef0-416a-aedb-f583d5cdeffd</guid>
 	</files>
 
 	<files>
@@ -1285,8 +1350,28 @@
 	</files>
 
 	<files>
+		<path>media/clothing/clothingItems/Jacket_Police_Louisville_SGT.xml</path>
+		<guid>d0773e44-f6f8-45aa-b2bd-fb8bf4d9f26c</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Jacket_Police_Louisville_CPT.xml</path>
+		<guid>27827e52-e1b4-4f0c-880e-be26be0d73e6</guid>
+	</files>
+
+	<files>
 		<path>media/clothing/clothingItems/Jacket_Police_JeffersonPD.xml</path>
 		<guid>c7a6c928-7a84-4254-b58d-79a33a8f2039</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Jacket_Police_JeffersonPD_SGT.xml</path>
+		<guid>ec185808-cf21-42cb-8537-449b86067708</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Jacket_Police_JeffersonPD_CPT.xml</path>
+		<guid>b8c34ab0-c379-4865-a911-5a561eea2451</guid>
 	</files>
 
 	<files>
@@ -1295,8 +1380,28 @@
 	</files>
 
 	<files>
+		<path>media/clothing/clothingItems/Jacket_Police_JeffersonSD_SGT.xml</path>
+		<guid>4c6617e9-a524-453a-82a3-d57b022c2ad1</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Jacket_Police_JeffersonSD_CPT.xml</path>
+		<guid>1a58c7c0-002e-4a58-8277-edf967cf143c</guid>
+	</files>
+
+	<files>
 		<path>media/clothing/clothingItems/Jacket_PoliceKSP.xml</path>
 		<guid>b749d5ea-071c-4927-937f-3f22b1b3166b</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Jacket_PoliceKSP_SGT.xml</path>
+		<guid>3df72cf3-0a1f-431b-9e67-0bec31f25a67</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Jacket_PoliceKSP_CPT.xml</path>
+		<guid>74222a3a-0646-4b10-8a7b-4a1793ff856b</guid>
 	</files>
 
 	<files>
@@ -1410,16 +1515,6 @@
 	</files>
 
 	<files>
-		<path>media/clothing/clothingItems/Jacket_Fireman_Greenport_Black.xml</path>
-		<guid>9d1b8200-5b29-42c5-b6a5-be9e00680b52</guid>
-	</files>
-
-	<files>
-		<path>media/clothing/clothingItems/Jacket_Fireman_Greenport_Khaki.xml</path>
-		<guid>5749cce5-81e0-4095-9448-d10fa87b3609</guid>
-	</files>
-
-	<files>
 		<path>media/clothing/clothingItems/Jacket_Fireman_Tandil_Black.xml</path>
 		<guid>c4d52a56-749e-4392-ac1f-6e2df659c71c</guid>
 	</files>
@@ -1451,6 +1546,16 @@
 	</files>
 
 	<files>
+		<path>media/clothing/clothingItems/Shirt_Police_Tandil_SGT.xml</path>
+		<guid>96b9331d-f66a-4b30-ba75-a5c099360f9f</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Shirt_Police_Tandil_CPT.xml</path>
+		<guid>e1ef765d-5c86-4c2b-9b31-8d763fa01d92</guid>
+	</files>
+
+	<files>
 		<path>media/clothing/clothingItems/Shirt_Police_RavenCreek.xml</path>
 		<guid>658a16ec-3aae-429c-83a0-68a35574b6bf</guid>
 	</files>
@@ -1458,6 +1563,16 @@
 	<files>
 		<path>media/clothing/clothingItems/Shirt_Police_Meade.xml</path>
 		<guid>70f9aca3-808b-48cc-8d9f-c6a2caef517d</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Shirt_Police_Meade_SGT.xml</path>
+		<guid>db832c99-e18c-4ee1-8858-610da7c8afdd</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Shirt_Police_Meade_CPT.xml</path>
+		<guid>bb97f1dd-e979-46ed-8dfb-58b422441ace</guid>
 	</files>
 
 	<files>
@@ -1486,8 +1601,28 @@
 	</files>
 
 	<files>
+		<path>media/clothing/clothingItems/Shirt_Police_Louisville_SGT.xml</path>
+		<guid>27025fb0-b3fb-46a2-8f16-14e7aab4bb1c</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Shirt_Police_Louisville_CPT.xml</path>
+		<guid>20c98157-4c25-419d-9326-2d3aebc9a65a</guid>
+	</files>
+
+	<files>
 		<path>media/clothing/clothingItems/Shirt_Police_JeffersonPD.xml</path>
 		<guid>a379e0af-0703-48b9-9266-aa7ccb6e3616</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Shirt_Police_JeffersonPD_SGT.xml</path>
+		<guid>81693b0f-d612-4ace-8e16-c7f3aa0cb4dc</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Shirt_Police_JeffersonPD_CPT.xml</path>
+		<guid>bcce96af-aafb-4a69-9983-40b7c22f63cf</guid>
 	</files>
 
 	<files>
@@ -1496,8 +1631,28 @@
 	</files>
 
 	<files>
+		<path>media/clothing/clothingItems/Shirt_Police_JeffersonSD_SGT.xml</path>
+		<guid>1947865b-af9c-40b4-b4a7-5e2c7190a836</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Shirt_Police_JeffersonSD_CPT.xml</path>
+		<guid>0d6e46e3-cc55-44e9-932e-fda63418d3b9</guid>
+	</files>
+
+	<files>
 		<path>media/clothing/clothingItems/Shirt_PoliceKSP.xml</path>
 		<guid>7e071bbe-fbe5-4364-853b-de3b0930b9ce</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Shirt_PoliceKSP_SGT.xml</path>
+		<guid>a456f9bb-2a9e-4417-a12c-324121e920ce</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Shirt_PoliceKSP_CPT.xml</path>
+		<guid>286731f7-22aa-4ccf-a216-488705dc73e0</guid>
 	</files>
 
 	<files>
@@ -1538,11 +1693,6 @@
 	<files>
 		<path>media/clothing/clothingItems/Shirt_Fire_Supervisor_Meade.xml</path>
 		<guid>4be51da9-8cc5-49a3-9e62-66dcd586c6df</guid>
-	</files>
-
-	<files>
-		<path>media/clothing/clothingItems/Shirt_Fire_Greenport.xml</path>
-		<guid>c5ed3dd4-f88c-45f5-905a-a34fb074b0b7</guid>
 	</files>
 
 	<files>
@@ -1662,6 +1812,16 @@
 	</files>
 
 	<files>
+		<path>media/clothing/clothingItems/TShirt_Police_Tandil_SGT.xml</path>
+		<guid>5bf0e658-05a5-4e9d-bad1-0b4d9f07b6f3</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/TShirt_Police_Tandil_CPT.xml</path>
+		<guid>60372fa0-f035-4343-91f7-9e81616160a0</guid>
+	</files>
+
+	<files>
 		<path>media/clothing/clothingItems/TShirt_Police_RavenCreek.xml</path>
 		<guid>be472096-e8b5-410b-9f7d-b67ee6031460</guid>
 	</files>
@@ -1669,6 +1829,16 @@
 	<files>
 		<path>media/clothing/clothingItems/TShirt_Police_Meade.xml</path>
 		<guid>52e79046-02ab-4a8e-a94f-0f2dc9abd21d</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/TShirt_Police_Meade_SGT.xml</path>
+		<guid>bde08f8a-b86d-4f4c-854f-a6824a44f785</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/TShirt_Police_Meade_CPT.xml</path>
+		<guid>6e88f4d5-c242-467d-a13b-c895b5b28b24</guid>
 	</files>
 
 	<files>
@@ -1697,8 +1867,28 @@
 	</files>
 
 	<files>
+		<path>media/clothing/clothingItems/TShirt_Police_Louisville_SGT.xml</path>
+		<guid>72e1f4a8-b960-427d-b228-2b20dcf2462e</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/TShirt_Police_Louisville_CPT.xml</path>
+		<guid>a277bb62-2074-4157-a7e4-74d5ac2d3d88</guid>
+	</files>
+
+	<files>
 		<path>media/clothing/clothingItems/TShirt_Police_JeffersonPD.xml</path>
 		<guid>4be52ac5-d540-4d35-8c56-6f13d3dde3fb</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/TShirt_Police_JeffersonPD_SGT.xml</path>
+		<guid>03f218f1-2d51-4e52-b3d5-df63621c1a72</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/TShirt_Police_JeffersonPD_CPT.xml</path>
+		<guid>3efb367f-53e2-40a5-bda3-5c9089863ee3</guid>
 	</files>
 
 	<files>
@@ -1707,8 +1897,28 @@
 	</files>
 
 	<files>
+		<path>media/clothing/clothingItems/TShirt_Police_JeffersonSD_SGT.xml</path>
+		<guid>7ace1c12-d2c4-4bb4-a264-a37815bc9548</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/TShirt_Police_JeffersonSD_CPT.xml</path>
+		<guid>828d42cd-3b04-456d-888c-35c288e8e6b5</guid>
+	</files>
+
+	<files>
 		<path>media/clothing/clothingItems/TShirt_PoliceKSP.xml</path>
 		<guid>4b4a6c09-b399-4ec1-bb1c-24c3d961cbce</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/TShirt_PoliceKSP_SGT.xml</path>
+		<guid>6a736512-a882-4f3e-8419-b3c4d3ceb1a3</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/TShirt_PoliceKSP_CPT.xml</path>
+		<guid>aa7967ae-44a4-4818-876b-3bf5c81a7811</guid>
 	</files>
 
 	<files>
@@ -1749,11 +1959,6 @@
 	<files>
 		<path>media/clothing/clothingItems/TShirt_Fire_Supervisor_Meade.xml</path>
 		<guid>b59c4a18-8925-4de9-bacc-6c2392ab45d8</guid>
-	</files>
-
-	<files>
-		<path>media/clothing/clothingItems/TShirt_Fire_Greenport.xml</path>
-		<guid>9f46ffa9-373d-42c2-8a5b-6056642f3cb2</guid>
 	</files>
 
 	<files>
@@ -1919,26 +2124,6 @@
 	<files>
 		<path>media/clothing/clothingItems/TShirt_Profession_FiremanWhite_Louisville.xml</path>
 		<guid>b1fdbe4a-e0ca-4a7f-825c-2af969652be8</guid>
-	</files>
-
-	<files>
-		<path>media/clothing/clothingItems/TShirt_Profession_FiremanBlue_Greenport.xml</path>
-		<guid>89ec0513-acd9-400e-89d8-2a02def81d98</guid>
-	</files>
-
-	<files>
-		<path>media/clothing/clothingItems/TShirt_Profession_FiremanRed_Greenport.xml</path>
-		<guid>623fa152-e8c6-46bc-85a8-ff453e048cb1</guid>
-	</files>
-
-	<files>
-		<path>media/clothing/clothingItems/TShirt_Profession_FiremanRed_Greenport02.xml</path>
-		<guid>9cc37a21-9f89-4c33-a498-8dd442b80e1b</guid>
-	</files>
-
-	<files>
-		<path>media/clothing/clothingItems/TShirt_Profession_FiremanWhite_Greenport.xml</path>
-		<guid>d0937557-72af-43c8-aaa6-03b421fc8c43</guid>
 	</files>
 
 	<files>
@@ -2153,11 +2338,6 @@
 	</files>
 
 	<files>
-		<path>media/clothing/clothingItems/Trousers_Fire_Formal_Greenport.xml</path>
-		<guid>ae1efae2-319d-46e0-aa83-1a6f688d48ed</guid>
-	</files>
-
-	<files>
 		<path>media/clothing/clothingItems/Trousers_Fire_Formal_Tandil.xml</path>
 		<guid>3b546497-73c2-4c7c-840d-6d3f9cf615ef</guid>
 	</files>
@@ -2175,16 +2355,6 @@
 	<files>
 		<path>media/clothing/clothingItems/Trousers_Fire_Formal_Rosewood.xml</path>
 		<guid>59af2eff-dcc8-4edb-ba1c-f716361c7b3b</guid>
-	</files>
-
-	<files>
-		<path>media/clothing/clothingItems/Trousers_Fireman_Greenport_Black.xml</path>
-		<guid>77c5a72a-f2d9-4880-8c72-bd9d277d6b7c</guid>
-	</files>
-
-	<files>
-		<path>media/clothing/clothingItems/Trousers_Fireman_Greenport_Khaki.xml</path>
-		<guid>66bd1fd0-96b7-4dea-8e48-3949b3519e62</guid>
 	</files>
 
 	<files>

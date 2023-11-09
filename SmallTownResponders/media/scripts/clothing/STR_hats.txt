@@ -27,6 +27,30 @@ module STR {
 		ChanceToFall = 70,
 		WaterResistance = 0.2,
 	}
+	item Hat_Police_Tandil_SGT
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Tandil PD Sgt. Hat,
+		ClothingItem = Hat_Police_Tandil_SGT,
+		BodyLocation = Hat,
+		Icon = Hat_Police_Tandil_SGT,
+		CanHaveHoles = false,
+		ChanceToFall = 70,
+		WaterResistance = 0.2,
+	}
+	item Hat_Police_Tandil_CPT
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Tandil PD Cpt. Hat,
+		ClothingItem = Hat_Police_Tandil_CPT,
+		BodyLocation = Hat,
+		Icon = Hat_Police_Tandil_CPT,
+		CanHaveHoles = false,
+		ChanceToFall = 70,
+		WaterResistance = 0.2,
+	}
 	item Hat_Police_Tandil_Dress
 	{
 	    DisplayCategory = Accessory,
@@ -35,6 +59,30 @@ module STR {
 		ClothingItem = Hat_Police_Tandil_Dress,
 		BodyLocation = Hat,
 		Icon = Hat_Police_Tandil_Dress,
+		CanHaveHoles = false,
+		ChanceToFall = 70,
+		WaterResistance = 0.2,
+	}
+	item Hat_Police_Tandil_SGT_Dress
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Tandil PD Sgt. Dress Hat,
+		ClothingItem = Hat_Police_Tandil_SGT_Dress,
+		BodyLocation = Hat,
+		Icon = Hat_Police_Tandil_SGT_Dress,
+		CanHaveHoles = false,
+		ChanceToFall = 70,
+		WaterResistance = 0.2,
+	}
+	item Hat_Police_Tandil_CPT_Dress
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Tandil PD Cpt. Dress Hat,
+		ClothingItem = Hat_Police_Tandil_CPT_Dress,
+		BodyLocation = Hat,
+		Icon = Hat_Police_Tandil_CPT_Dress,
 		CanHaveHoles = false,
 		ChanceToFall = 70,
 		WaterResistance = 0.2,
@@ -199,6 +247,30 @@ module STR {
 		ClothingItem = Hat_Police_JeffersonPD,
 		BodyLocation = Hat,
 		Icon = Hat_Police_JeffersonPD,
+		CanHaveHoles = false,
+		ChanceToFall = 70,
+		WaterResistance = 0.2,
+	}
+	item Hat_Police_JeffersonPD_SGT
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Jefferson County PD Sgt. Hat,
+		ClothingItem = Hat_Police_JeffersonPD_SGT,
+		BodyLocation = Hat,
+		Icon = Hat_Police_JeffersonPD_SGT,
+		CanHaveHoles = false,
+		ChanceToFall = 70,
+		WaterResistance = 0.2,
+	}
+	item Hat_Police_JeffersonPD_CPT
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Jefferson County PD Cpt. Hat,
+		ClothingItem = Hat_Police_JeffersonPD_CPT,
+		BodyLocation = Hat,
+		Icon = Hat_Police_JeffersonPD_CPT,
 		CanHaveHoles = false,
 		ChanceToFall = 70,
 		WaterResistance = 0.2,
@@ -720,60 +792,6 @@ module STR {
 		ClothingItem = Hat_Fireman_Louisville_Yellow,
 		BodyLocation = Hat,
 		Icon = Fireman_Hat_Yellow_Louisville,
-		BloodLocation = Head,
-		CanHaveHoles = false,
-		BiteDefense = 100,
-        ScratchDefense = 100,
-        ChanceToFall = 0,
-        Insulation = 0.65,
-        WindResistance = 0.55,
-        WaterResistance = 0.60,
-        Weight = 1.5,
-    }
-	item Hat_Fireman_Greenport_Black
-	{
-	    DisplayCategory = Accessory,
-		Type = Clothing,
-		DisplayName = Black Greenport FD Helmet,
-		ClothingItem = Hat_Fireman_Greenport_Black,
-		BodyLocation = Hat,
-		Icon = Fireman_Hat_Black_Greenport,
-		BloodLocation = Head,
-		CanHaveHoles = false,
-		BiteDefense = 100,
-        ScratchDefense = 100,
-        ChanceToFall = 0,
-        Insulation = 0.65,
-        WindResistance = 0.55,
-        WaterResistance = 0.60,
-        Weight = 1.5,
-    }
-	item Hat_Fireman_Greenport_Red
-	{
-	    DisplayCategory = Accessory,
-		Type = Clothing,
-		DisplayName = Red Greenport FD Helmet,
-		ClothingItem = Hat_Fireman_Greenport_Red,
-		BodyLocation = Hat,
-		Icon = Fireman_Hat_Red_Greenport,
-		BloodLocation = Head,
-		CanHaveHoles = false,
-		BiteDefense = 100,
-        ScratchDefense = 100,
-        ChanceToFall = 0,
-        Insulation = 0.65,
-        WindResistance = 0.55,
-        WaterResistance = 0.60,
-        Weight = 1.5,
-    }
-	item Hat_Fireman_Greenport_Yellow
-	{
-	    DisplayCategory = Accessory,
-		Type = Clothing,
-		DisplayName = Yellow Greenport FD Helmet,
-		ClothingItem = Hat_Fireman_Greenport_Yellow,
-		BodyLocation = Hat,
-		Icon = Fireman_Hat_Yellow_Greenport,
 		BloodLocation = Head,
 		CanHaveHoles = false,
 		BiteDefense = 100,

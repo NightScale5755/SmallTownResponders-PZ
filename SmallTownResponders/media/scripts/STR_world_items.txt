@@ -22,6 +22,12 @@ module Base
         texture = Item_Badge_Police_Tandil,
         scale = 0.4,
     }
+	model TDBadge_Gold_Ground
+    {
+        mesh = WorldItems/SeedPacket,
+        texture = Item_Badge_Police_Tandil_Gold,
+        scale = 0.4,
+    }
 	model RCRBadge_Ground
     {
         mesh = WorldItems/SeedPacket,

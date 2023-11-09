@@ -87,8 +87,8 @@ ItemName_EN = {
     ItemName_STR.Hat_Security_Mall_LV = "Mall Security Hat",
 
     ItemName_STR.Jacket_Police_Greenport = "Greenport PD Jacket",
-    ItemName_STR.Jacket_Police_Tandil = "Tandil PD Jacket",
     ItemName_STR.Jacket_Dress_Police_Greenport = "Greenport PD Coat",
+    ItemName_STR.Jacket_Police_Tandil = "Tandil PD Jacket",
     ItemName_STR.Jacket_Dress_Police_Tandil = "Tandil PD Coat",
     ItemName_STR.Jacket_Fireman_Tandil_Black = "Black Tandil FD Jacket",
     ItemName_STR.Jacket_Fireman_Tandil_Khaki = "Khaki Tandil FD Jacket",

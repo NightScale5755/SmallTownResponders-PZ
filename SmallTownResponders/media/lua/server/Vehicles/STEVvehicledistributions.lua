@@ -2997,6 +2997,7 @@ local function STRVehicleDistro()
 		distributionTable[Fire[20]] = { Normal = VehicleDistributions.FireTruckTandil; }
 
 	end
+
 	if getActivatedMods():contains("Greenport") then
 
 		distributionTable[GPPD[1]] = distributionTable["CarLightsPolice"]

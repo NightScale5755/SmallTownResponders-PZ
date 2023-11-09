@@ -15,7 +15,7 @@ local ZoneName = {
 	Jefferson = "Jefferson",
 	RavenCreek = "RavenCreek",
 	Tandil = "Tandil",
-	Greenport = "Greenport"
+	Greenport  = "Greenport "
 }
 
 ---Like DoParam but for vehicles
@@ -373,6 +373,11 @@ if getActivatedMods():contains("FRUsedCars") then
 		AddVehicleSkin("92crownvicPD", ZoneName.Greenport, "Vehicles/vehicle_92crownvic_greenportpoliceshell");
 		AddVehicleSkin("91blazerpd", ZoneName.Greenport, "Vehicles/vehicle_blazer_greenportpoliceshell");
 		AddVehicleSkin("87capricePD", ZoneName.Greenport, "Vehicles/vehicle_87caprice_greenportpoliceshell");
+
+	end
+	if getActivatedMods():contains("SimonMDLVInternationalAirport") then
+
+		--AddVehicleSkin("firepumper", ZoneName.Tandil, "Vehicles/vehicle_firepumper_louisville_airport");
 
 	end
 end

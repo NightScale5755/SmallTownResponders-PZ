@@ -25,6 +25,17 @@ module STR {
         PageToWrite =   1,
         WorldStaticModel = TDBadge_Ground,
     }
+    item TandilGoldPoliceBadge
+    {
+	    DisplayCategory = Literature,
+        Weight	=	0.10,
+        Type	=	Literature,
+        DisplayName	=	Tandil PD Supervisor Badge,
+        Icon	=	Badge_Police_Tandil_Gold,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        WorldStaticModel = TDBadge_Gold_Ground,
+    }
     item RavenCreekPoliceBadge
     {
 	    DisplayCategory = Literature,

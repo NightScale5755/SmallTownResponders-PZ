@@ -674,6 +674,17 @@ module STR {
 		Weight = 0.1,
 		WorldStaticModel = Tie_Ground,
 	}
+	item Necklace_Badge_Police_Greenport
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Greenport PD Necklace Badge,
+		ClothingItem = Necklace_Badge_Police_Greenport,
+		BodyLocation = Neck2,
+		Icon = Necklace_Badge_Police_Greenport,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
 	item Necklace_Badge_Police_Tandil
 	{
 	    DisplayCategory = Accessory,
@@ -682,6 +693,17 @@ module STR {
 		ClothingItem = Necklace_Badge_Police_Tandil,
 		BodyLocation = Neck2,
 		Icon = Necklace_Badge_Police_Tandil,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Necklace_Badge_Police_Tandil_Gold
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Tandil PD Supervisor Necklace Badge,
+		ClothingItem = Necklace_Badge_Police_Tandil_Gold,
+		BodyLocation = Neck2,
+		Icon = Necklace_Badge_Police_Tandil_Gold,
 		Weight = 0.1,
 		WorldStaticModel = Tie_Ground,
 	}
