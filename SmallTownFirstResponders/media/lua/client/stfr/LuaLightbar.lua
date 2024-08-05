@@ -6,6 +6,28 @@ end)
 
 local currentTime = 0
 
+---@type fun(BaseVehicle):boolean
+local getHornActive
+
+local tempVehicle = BaseVehicle.new(nil)
+
+for i = 0, getNumClassFields(tempVehicle) - 1 do
+    local field = getClassField(tempVehicle, i)
+    local fieldname = string.match(tostring(field), "([^%.]+)$")
+    if fieldname == "soundHornOn" then
+        getHornActive = function(vehicle)
+            return getClassFieldVal(vehicle, field)
+        end
+        break
+    end
+end
+
+tempVehicle = nil
+
+if not getHornActive then
+    error("STFR Lightbars: Could not create field getters")
+end
+
 --- Lua reimplementation of vehicle lightbars
 ---@class LuaLightbar
 ---@field private _vehicle BaseVehicle
@@ -25,9 +47,11 @@ local currentTime = 0
 ---@field private _emitter BaseSoundEmitter
 ---@field private _sirenSound number
 ---@field private _lastSirenMode LightbarSirenMode
+---@field private _hornSound number
 ---@field sirenYelp string?
 ---@field sirenWail string?
 ---@field sirenAlarm string?
+---@field horn string?
 local LuaLightbar = {}
 LuaLightbar.__index = LuaLightbar
 ---@type LuaLightbar[]
@@ -58,8 +82,13 @@ LuaLightbar._handleEnterExitVehicle = function(character)
     for i = 1, #LuaLightbar.list, 1 do
         local lightbar = LuaLightbar.list[i]
         if lightbar._vehicle == vehicle then
-            if lightbar._sirenSound == -1 then return end
-            lightbar._emitter:set3D(lightbar._sirenSound, vehicle:isAnyListenerInside())
+            local shouldSpatialise = not vehicle:isAnyListenerInside()
+            if lightbar._sirenSound ~= -1 then
+                lightbar._emitter:set3D(lightbar._sirenSound, shouldSpatialise)
+            end
+            if lightbar._hornSound ~= -1 then
+                lightbar._emitter:set3D(lightbar._hornSound, shouldSpatialise)
+            end
         end
     end
 end
@@ -180,6 +209,15 @@ LuaLightbar.update = function(self)
         self._lastSirenMode = sirenMode
     end
 
+    if self.horn and getHornActive(self._vehicle) then
+        if self._hornSound == -1 then
+            self._hornSound = self._emitter:playSoundLoopedImpl(self.horn)
+        end
+    elseif self._hornSound ~= -1 then
+        self._emitter:stopSoundLocal(self._hornSound)
+        self._hornSound = -1
+    end
+
     if lightMode ~= self._lastLightMode then
         self._lastLightMode = lightMode
         self._startTime = getTimeInMillis()
@@ -271,6 +309,7 @@ LuaLightbar.new = function(vehicle, leftR, leftG, leftB, rightR, rightG, rightB)
     o._lastLightMode = 0
     o._lastSide = 0
     o._sirenSound = -1
+    o._hornSound = -1
 
     -- this one gets deleted right away but needs to exist to avoid a null pointer error
     o._light = IsoLightSource.new(0, 0, 0, 0, 0, 0, 8)
@@ -318,6 +357,11 @@ LuaLightbar_Init = function(vehicle, part)
     local sirens = part:getTable("sirens")
     if sirens then
         lightbar:setSirenSounds(unpack(luautils.split(sirens[skinIndex] or sirens.default, ";")))
+    end
+
+    local horns = part:getTable("horns")
+    if horns then
+        lightbar.horn = horns[skinIndex] or horns.default
     end
 end
 

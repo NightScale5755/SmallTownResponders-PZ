@@ -66,6 +66,10 @@ LightbarColour = {
 ---@field default string Semicolon separated sounds (e.g. YelpSound;WailSound;SirenSound)
 ---@field [integer] string Semicolon separated sounds (e.g. YelpSound;WailSound;SirenSound)
 
+---@class HornScript
+---@field default string
+---@field [integer] string
+
 ---@type table<string, LightbarColourScript>
 local lightbarMap = {}
 
@@ -123,20 +127,53 @@ local setVehicleSirens = function(vehicle, sirens, module)
 	vehicleScript:Load(vehicle, "{ part lightbar { lua { init = LuaLightbar_Init,} } }")
 end
 
+---@type table<string, HornScript>
+local hornMap = {}
+
+---@param vehicle string
+---@param horns HornScript
+---@param module? string
+local setVehicleHorns = function(vehicle, horns, module)
+	-- TODO: this requires a lightbar right now because it piggybacks off of light bar stuff, it could be edited to use the engine or something
+	module = module or "Base"
+	local vehicleScript = ScriptManager.instance:getVehicle(module .. "." .. vehicle)
+	if not vehicleScript then
+		debugError("STFR: tried to override horn of non-existent vehicle " .. vehicle, 2)
+		return
+	end
+
+	local lightbar = vehicleScript:getPartById("lightbar")
+	if not lightbar then
+		debugError("STFR: tried to override horn of vehicle with no lightbar " .. vehicle, 2)
+		return
+	end
+
+	vehicleScript:Load(vehicle, "{ sound { horn = NONE, } }")
+	addTableToPart(vehicle, "lightbar", "horns", horns, module)
+	vehicleScript:Load(vehicle, "{ part lightbar { lua { init = LuaLightbar_Init,} } }")
+end
+
 Events.OnGameBoot.Add(function()
 	for vehicle, colours in pairs(lightbarMap) do
 		local module, name = unpack(luautils.split(vehicle, "."))
 		setVehicleLightbars(name, colours, module)
 	end
+	---@diagnostic disable-next-line: cast-local-type
+	lightbarMap = nil
 
 	for vehicle, sirens in pairs(sirenMap) do
 		local module, name = unpack(luautils.split(vehicle, "."))
 		setVehicleSirens(name, sirens, module)
 	end
 	---@diagnostic disable-next-line: cast-local-type
-	lightbarMap = nil
-	---@diagnostic disable-next-line: cast-local-type
 	sirenMap = nil
+
+	for vehicle, horns in pairs(hornMap) do
+		local module, name = unpack(luautils.split(vehicle, "."))
+		setVehicleHorns(name, horns, module)
+	end
+	---@diagnostic disable-next-line: cast-local-type
+	hornMap = nil
 end)
 
 ---Utility to add new skins to vehicles
@@ -248,6 +285,20 @@ end
 ---@param module? string Module of the vehicle. Defaults to Base
 local setVehicleSkinSirensAll = function(vehicle, skin, sound, module)
 	setVehicleSkinSirens(vehicle, skin, sound .. "Yelp", sound .. "Wall", sound .. "Alarm", module)
+end
+
+---Utility for setting vehicle skin horn sounds. The vehicle's original horn sound will be lost
+---@param vehicle string Short type of the vehicle
+---@param skin integer? Skin index to set horn for, or nil to set the horn for all skins without an override
+---@param sound string Sound name
+---@param module? string Module of the vehicle. Defaults to Base
+local setVehicleSkinHorn = function(vehicle, skin, sound, module)
+	local fullName = (module or "Base") .. "." .. vehicle
+	---@diagnostic disable-next-line: cast-local-type
+	skin = skin or "default"
+
+	hornMap[fullName] = hornMap[fullName] or {default="VehicleHornStandard"}
+	hornMap[fullName][skin] = string.format(sound)
 end
 
 ---@deprecated
